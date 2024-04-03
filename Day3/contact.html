@@ -7,9 +7,8 @@
     <link rel="stylesheet" href="./asset/css/contact.css" />
   </head>
   <body>
-
     <!-- Navbar -->
-    
+
     <nav>
       <div class="nav-main">
         <div class="dashboard">
@@ -38,22 +37,22 @@
       <form>
         <div>
           <label>Name</label>
-          <input type="text" />
+          <input type="text" id="name" />
         </div>
 
         <div>
           <label>Email</label>
-          <input type="email" />
+          <input type="email" id="email" />
         </div>
 
         <div>
           <label>Phone Number</label>
-          <input type="text" />
+          <input type="text" id="phone" />
         </div>
 
         <div>
           <label>Subject</label>
-          <select>
+          <select id="subject">
             <option hidden></option>
             <option>Frontend Developer</option>
             <option>Backend Developer</option>
@@ -63,13 +62,15 @@
 
         <div>
           <label>Your Message</label>
-          <textarea></textarea>
+          <textarea id="message"></textarea>
         </div>
 
         <div class="submit-main">
-          <button>submit</button>
+          <button onclick="Submit()">submit</button>
         </div>
       </form>
     </div>
+
+    <script src="./asset/js/contact.js"></script>
   </body>
 </html>
