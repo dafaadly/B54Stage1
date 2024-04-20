@@ -60,11 +60,11 @@ nav {
 
 .halaman {
   background-color: white;
-  margin: 60px;
+  margin: 50px;
   padding: 40px;
   display: flex;
   gap: 50px;
-  width: 87%;
+  width: 90%;
   border-radius: 8px;
   box-shadow: 0 10px 10px rgba(132, 132, 132, 0.503);
 }
