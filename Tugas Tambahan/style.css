@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  background-color: rgb(180, 200, 241);
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(151, 173, 221);
+  align-items: center;
+}
+
+.nav-main {
+  display: flex;
+  width: 90%;
+}
+
+.dashboard ul {
+  display: flex;
+  padding: 0;
+}
+
+.dashboard img {
+  margin-right: 40px;
+  width: 60px;
+}
+
+.dashboard a {
+  color: white;
+  text-decoration: none;
+}
+
+.dashboard ul li {
+  list-style-type: none;
+  margin-right: 25px;
+  font-size: 20px;
+}
+
+.home a {
+  font-weight: bold;
+  color: white;
+  padding-left: 30px;
+  padding-right: 10px;
+}
+
+/* Halaman */
+
+.halaman {
+  background-color: white;
+  margin: 50px;
+  padding: 40px;
+  display: flex;
+  gap: 50px;
+  width: 90%;
+  border-radius: 8px;
+  box-shadow: 0 10px 10px rgba(132, 132, 132, 0.503);
+}
+
+.section {
+  margin-top: -60px;
+}
+
+.section p {
+  margin-top: -30px;
+}
+
+.halaman p {
+  text-align: justify;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-size: 1.1em;
+}
+
+.halaman h2 {
+  padding-top: 50px;
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.halaman h3 {
+    padding-bottom: 10px;
+  }
